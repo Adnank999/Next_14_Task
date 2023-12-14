@@ -14,12 +14,12 @@ export const taskApi = createApi({
       getTasks: builder.query<Task[], void>({
         query: () => "/tasks",
         providesTags: ["Task"],
-        // transformResponse: (response: Student[], meta, args: any) => {
-        //   if (args === 2) {
-        //     return response.slice(0, 4);
-        //   }
-        //   return response;
-        // },
+        transformResponse: (response: Task[], meta, args: any) => {
+          if (args === 2) {
+            return response.slice(0, 4);
+          }
+          return response;
+        },
       }),
       getTask: builder.query<Task, string>({
         query: (id) => `/tasks/${id}`,

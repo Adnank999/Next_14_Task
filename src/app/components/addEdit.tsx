@@ -49,40 +49,6 @@ const AddEdit = () => {
   };
 
   return (
-    // <div className="">
-
-    //   <h2>Add and Edit</h2>
-
-    //   <form onSubmit={handleSubmit}>
-    //     <div className="mb-3">
-    //       <label className="block text-sm font-medium leading-6 text-gray-900">Task Name</label>
-
-    //       <input
-    //         type="text"
-    //         name="name"
-    //         className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
-    //         onChange={handleChange}
-    //         value={tasks?.name || ""}
-    //       />
-    //     </div>
-
-    //     <div className="mb-3">
-    //       <label className="block text-sm font-medium leading-6 text-gray-900">Task Category</label>
-    //       <input
-    //         type="text"
-    //         name="category"
-    //         className="form-control"
-    //         onChange={handleChange}
-    //         value={tasks?.category || ""}
-    //       />
-    //     </div>
-
-    //     <button type="submit" className="btn btn-primary">
-    //       {editMode ? "Update " : "Add"}
-    //     </button>
-
-    //   </form>
-    // </div>
 
     <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
       <form className="space-y-6" onSubmit={handleSubmit}>

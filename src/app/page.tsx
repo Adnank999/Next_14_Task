@@ -4,12 +4,9 @@ import AddEdit from "./components/addEdit";
 
 const page = () => {
   return (
-    <div className="flex flex-row justify-evenly w-full">
-      <div className="">
+    <div className="">
+      <div className="mt-20 flex justify-center">
         <AddEdit />
-      </div>
-
-      <div >
         <Read />
       </div>
     </div>
