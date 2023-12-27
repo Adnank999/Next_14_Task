@@ -7,7 +7,7 @@ export default function Page({ params }: { params: { id: string } }) {
 
   return (
     <div className='flex justify-center mt-6'>
-      {/* Render the Edit component with the id from params */}
+      
       <Edit id={id} />
     </div>
   );

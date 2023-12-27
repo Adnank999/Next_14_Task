@@ -40,35 +40,12 @@ interface EditProps {
   };
 
   if (!task) {
-    // Loading state or handle when task is not found
+    
     return <div>Loading...</div>;
   }
 
   return (
-    // <div>
-    //   <h1>Edit Task</h1>
-    //   <form onSubmit={handleSubmit}>
-    //     <div>
-    //       <label>Task Name</label>
-    //       <input
-    //         type="text"
-    //         name="name"
-    //         value={task.name}
-    //         onChange={handleChange}
-    //       />
-    //     </div>
-    //     <div>
-    //       <label>Task Category</label>
-    //       <input
-    //         type="text"
-    //         name="category"
-    //         value={task.category}
-    //         onChange={handleChange}
-    //       />
-    //     </div>
-    //     <button type="submit">Update Task</button>
-    //   </form>
-    // </div>
+    
 
     <div className="w-full  mt-5 max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
       <form className="space-y-6" onSubmit={handleSubmit}>
