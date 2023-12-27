@@ -2,7 +2,7 @@ import React from 'react'
 
 const test = () => {
   return (
-    <div>test</div>
+    <div>This code not in main branch</div>
   )
 }
 
